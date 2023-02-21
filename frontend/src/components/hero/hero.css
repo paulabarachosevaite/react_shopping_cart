@@ -1,0 +1,30 @@
+.heroContainer {
+  background: linear-gradient(rgba(39, 40, 41, 0.5), rgba(195, 55, 100, 0.5)),
+    url("../../../public//assets/images/hero.jpg");
+  height: 89vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroText {
+  background-color: rgba(227, 11, 43, 0.8);
+  width: 400px;
+  height: 600px;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.heroText h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.heroText p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 18px;
+}
